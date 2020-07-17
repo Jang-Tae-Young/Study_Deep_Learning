@@ -79,7 +79,7 @@ with imageio.get_writer(anim_file, mode='I') as writer:
 
 # import IPython
 if IPython.version_info > (6,2,0,''):
-  display.Image(filename=anim_file)
+    display.Image(filename=anim_file)
 
 # from __future__ import absolute_import, division, print_function, unicode_literals
 # import tensorflow as tf
